@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sign in</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <section class="auth">
+        <div class="auth-method">
+            <a class="auth-method__link auth-method__link--active" href="#">Sign in</a>
+            <a class="auth-method__link" href="#">Join us</a>
+        </div>
+        <form action="#" class="form">
+            <div class="form__element">
+                <label class="form__lable" for="username">Username</label>
+                <input class="form__input" type="text" id="username">
+            </div>
+
+            <div class="form__element">
+                <label class="form__lable" for="password">Password</label>
+                <input class="form__input" type="password" id="password">
+            </div>
+
+            <div class="form__element-checkbox">
+                <input class="form__input-checkbox" type="checkbox" id="checkbox">
+                <label class="form__checkbox-lable" for="checkbox">Keep me signed in</label>
+
+            </div>
+
+            <div class="form__element">
+                <input class="form__input-submit" type="submit" value="Sign in">
+            </div>
+        </form>
+        <div class="additional">
+            <a class="additional__link" href="#">Forgot password</a>
+            <a class="additional__link" href="#">Create an account</a>
+        </div>
+    </section>
+</body>
+
+</html>
